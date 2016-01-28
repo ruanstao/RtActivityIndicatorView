@@ -7,14 +7,15 @@
 //
 
 
-#import "RtActivtyIndicatorView.h"
+#import "RtActivityIndicatorView.h"
+
 typedef NS_ENUM(NSUInteger, AnimationType) {
     AnimationType_Stop = 1,
     AnimationType_Prepare,
     AnimationType_Start,
 };
 
-@interface RtActivtyIndicatorView ()
+@interface RtActivityIndicatorView ()
 
 /** The default color of each circle. */
 @property (strong, nonatomic) UIColor *defaultColor;
@@ -56,7 +57,7 @@ typedef NS_ENUM(NSUInteger, AnimationType) {
 
 @end
 
-@implementation RtActivtyIndicatorView
+@implementation RtActivityIndicatorView
 
 /*
  // Only override drawRect: if you perform custom drawing.

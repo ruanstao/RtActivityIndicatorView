@@ -11,7 +11,7 @@
 
 @protocol RtActivityIndicatorViewDelegate;
 
-@interface RtActivtyIndicatorView : UIView
+@interface RtActivityIndicatorView : UIView
 /** The number of circle indicators. */
 @property (readwrite, nonatomic) NSUInteger numberOfCircles;
 
@@ -58,7 +58,7 @@
  @param index The index of a particular circle.
  @return The background color of a particular circle.
  */
-- (UIColor *)activityIndicatorView:(JJSActivityIndicatorView *)activityIndicatorView
+- (UIColor *)activityIndicatorView:(RtActivityIndicatorView *)activityIndicatorView
       circleBackgroundColorAtIndex:(NSUInteger)index;
 
 @end
